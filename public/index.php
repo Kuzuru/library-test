@@ -19,4 +19,4 @@ use App\Hello;
 $hello = new Hello();
 
 echo $hello->world();
-echo "<br>Загрузка выполнена!";
+echo "<br>" . "Загрузка выполнена!";
