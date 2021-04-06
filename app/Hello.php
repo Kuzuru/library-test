@@ -2,9 +2,9 @@
 
 namespace App;
 
-class Book
+class Hello
 {
-    public function path(): string
+    public function world(): string
     {
         return __CLASS__ . ' : ' . __FILE__;
     }

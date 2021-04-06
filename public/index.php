@@ -14,9 +14,9 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 #################################################
 
-use App\Book;
+use App\Hello;
 
-$book = new Book();
+$hello = new Hello();
 
-echo $book->path();
+echo $hello->world();
 echo "<br>Загрузка выполнена!";
